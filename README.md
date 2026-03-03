@@ -43,6 +43,6 @@ All datasets are sourced from the [UC Irvine Machine Learning Repository](https:
 
 Potential enhancements to this project include:
 
-- Implementing additional algorithms such as reinforcement learning (work in progress), support vector machines (SVM), or ensemble methods
-- Optimizing code performance for larger-scale datasets
-- Creating visualization tools to compare algorithm performance across datasets
+- Implement additional algorithms such as reinforcement learning (work in progress), support vector machines (SVM), or ensemble methods
+- Optimize code performance for larger-scale datasets
+- Create visualization tools to compare algorithm performance across datasets
