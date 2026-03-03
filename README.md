@@ -18,7 +18,7 @@ The experiment files use cross-validation to evaluate different hyperparameter c
 
 ## Technologies Used
 
-Most of the codebase is written in Python. The Python code only uses `pandas` and `numpy`. Some analytical code is written in R. The packages used in the R code include `tidyverse` and `this.path`.
+Most of the codebase is written in Python (Python 3.12). The Python code only uses `pandas` and `numpy`. Some analytical code is written in R (R 4.4.2). The packages used in the R code include `tidyverse` and `this.path`.
 
 ## Data Source
 
