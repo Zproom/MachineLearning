@@ -10,9 +10,9 @@ Each algorithm is organized in its own directory: `decisiontree/`, `knn/`, and `
 
 1. Navigate to the desired algorithm directory: `cd knn/code/`, `cd decisiontree/code/`, or `cd neuralnet/code/`
 2. Run the appropriate experiment file:
-   - **KNN**: `python experiments_regular_knn.py` or `python experiments_edited_knn.py`
-   - **Decision Tree**: `python experiments.py`
-   - **Neural Network**: `python experiments.py`
+   - KNN: `python experiments_regular_knn.py` or `python experiments_edited_knn.py`
+   - Decision Tree: `python experiments.py`
+   - Neural Network: `python experiments.py`
 
 The experiment files use cross-validation to evaluate different hyperparameter configurations and save the results to .csv files in the `data/` directory. The R script `decisiontree/code/analysis.R` can be used to generate convergence plots from the decision tree pruning results.
 
@@ -35,9 +35,9 @@ All datasets are sourced from the [UC Irvine Machine Learning Repository](https:
 
 **K-Nearest Neighbors (KNN)**: A non-parametric algorithm that classifies or regresses data points based on the majority class or average value of the k nearest neighbors. Both regular and edited KNN variants are implemented, with the latter removing redundant training examples.
 
-**Decision Trees**: A tree-based model built using the ID3 algorithm that recursively partitions the feature space. The implementation includes support for both classification and regression, with cost-complexity pruning to prevent overfitting.
+**Decision Trees**: A tree-based model built using the ID3 algorithm that recursively partitions the feature space. The implementation includes support for both classification and regression, with reduced error pruning to prevent overfitting.
 
-**Neural Networks**: A multi-layer perceptron with custom implementations of forward and backward propagation. The codebase includes both standard neural network classifiers/regressors and autoencoder-based variants, allowing for feature learning through unsupervised pre-training.
+**Neural Networks**: Feedforward neural networks trained with backpropagation for both classification and regression tasks. The implementation includes logistic regression and linear regression as foundational algorithms. The project compares two approaches: (1) standard feedforward networks trained directly on classification/regression tasks, and (2) autoencoder-based architectures that use unsupervised pre-training for feature extraction.
 
 ## Future Work
 
