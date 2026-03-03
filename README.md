@@ -14,7 +14,7 @@ Each algorithm is organized in its own directory: `decisiontree/`, `knn/`, and `
    - **Decision Tree**: `python experiments.py`
    - **Neural Network**: `python experiments.py`
 
-The experiment files use cross-validation to evaluate different hyperparameter configurations and save the results to CSV files in the `data/` directory. The R script `decisiontree/code/analysis.R` can be used to generate convergence plots from the decision tree pruning results.
+The experiment files use cross-validation to evaluate different hyperparameter configurations and save the results to .csv files in the `data/` directory. The R script `decisiontree/code/analysis.R` can be used to generate convergence plots from the decision tree pruning results.
 
 ## Technologies Used
 
